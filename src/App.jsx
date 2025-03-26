@@ -1,20 +1,12 @@
-/**
- * @copyright 2025 anuragchaturbedy
- * @license Apache-2.0
- */
-
-
-/**
- * Components
- */
-import Header from "./components/Header";
+import React from 'react'
+import Hero from './components/Hero'
 
 const App = () => {
-
   return (
-    <Header />
+    <div className='min-h-screen bg-gray-900'>
+      <Hero />
+    </div>
   )
-
 }
 
-export default App;
+export default App
