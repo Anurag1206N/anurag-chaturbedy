@@ -43,6 +43,9 @@ const Hero = () => {
                     Web Developer
                 </span>
             </h1>
+            <button className="xl:w-[400px] md:w-[300px] w-[270] bg-gray-200 md:py-1 py-0 md:px-4 px-2 xl:text-2xl text-base text-gray-900 tracking-widest rounded-r-4xl flex justify-between items-center md:mr-auto md:mx-0 mx-auto">
+                Read My Story
+            </button>
             <div className="lg:w-[600px md:w-[500px] w-[350px] absolute left-1/2 -translate-x-1/2 -z-10">
             <img src="images/road.png" alt="Road Image" className='w-full mx-auto' />
             </div>
